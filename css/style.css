@@ -565,17 +565,62 @@ footer p {
 /*===CELULARES===*/
 
 
+
+
 @media (max-width: 480px) {
 
-   
+    /* Ajusta a navbar inteira */
+    .navbar-container {
+        padding: 0 10px;
+    }
+
+    /* Centraliza os itens */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Ajusta o tamanho da logo */
+    .logo {
+        width: 40px;
+        margin-top: 20px;
+    }
+
+    /* Ajusta o menu à direita */
+    .navbar-itens {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        line-height: 80px;
+        position: relative;
+        right: 0;
+    }
+
+    .navbar-itens li {
+        margin-left: 5px;
+        /* antes estava 25px — muito grande */
+    }
+
+    .navbar-itens li a {
+        font-size: 14px;
+        padding: 3px 5px;
+    }
+
+    .default-btn {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
 
 
     textarea {
 
 
-        margin: 0 auto 30px;
+        margin: 0 auto 35px;
         height: 100px;
-        width: 300px;
+        width: 320px;
+
     }
 
 
@@ -661,6 +706,11 @@ footer p {
         font-size: 14px;
     }
 
+    .contact-container {
+
+        padding: 40px;
+    }
+
     .contact-container p {
 
         font-size: 14px;
@@ -674,13 +724,7 @@ footer p {
 
     }
 
-    textarea {
 
-
-        margin: 0 auto 35px;
-        height: 150px;
-        width: 350px;
-    }
 
     footer p {
 
